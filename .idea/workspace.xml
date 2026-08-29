@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cda81635-f1c9-481a-a4bf-3d6f0a793d74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FITNESSQUEST-AI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FitnessAI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/1_Home.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/2_Dashboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/3_Challanges.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/4_Ai_workout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/5_Progress.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/6_Leaderboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/7_Ai_Safety.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/gamification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/posture.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
