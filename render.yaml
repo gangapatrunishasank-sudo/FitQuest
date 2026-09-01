@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: fitquest-ai
+    runtime: python
+    plan: free
+    buildCommand: python -m pip install --upgrade pip && python -m pip install -r requirements.txt
+    startCommand: streamlit run main.py --server.address 0.0.0.0 --server.port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.11"
+      - key: DATABASE_URL
+        fromDatabase:
+          name: fitquest-db
+          property: connectionString
+      - key: CLOUDFLARE_TURN_KEY_ID
+        sync: false
+      - key: CLOUDFLARE_TURN_API_TOKEN
+        sync: false
+
+databases:
+  - name: fitquest-db
+    plan: free
